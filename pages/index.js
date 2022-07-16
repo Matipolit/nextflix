@@ -1,8 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import MediaCard from '../components/mediaCard'
 
-import styles from '../styles/home.module.css'
+import styles from '../styles/home.module.scss'
 
 import { refreshAndGetDB } from '../lib/media'
 
