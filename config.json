@@ -1,0 +1,4 @@
+{
+  "moviesPath" : "../filmy-testFolder/",
+  "dbPath" : "../nextFlixDB.json"
+}
