@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "fast-glob": "^3.2.11",
     "fs": "^0.0.1-security",
+    "lnk": "^1.1.0",
     "next": "12.2.0",
     "next-videos": "^1.4.0",
     "react": "18.2.0",
