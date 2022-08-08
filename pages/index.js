@@ -9,6 +9,7 @@ export default function Home({db}) {
   return (
     <div>
       <Head>
+        <meta charset="UTF-8"/>
         <title>NextFlix</title>
       </Head>
       <div className={styles.movieGrid}>
@@ -25,7 +26,7 @@ export async function getStaticProps() {
   console.log(db);
   return {
     props: {
-      db,
+      db: JSON.parse(JSON.stringify(db)),
     },
   }
 }
